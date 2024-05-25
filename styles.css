@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#forca img {
+    max-width: 100px;
+}
+
+#palavra {
+    font-size: 24px;
+    letter-spacing: 10px;
+    margin: 20px 0;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+    color: red;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+}
